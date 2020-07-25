@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EFBlogDataAccessLibrary.DataAccess;
+using EFBlogDataAccessLibrarySQLServer.DataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -25,9 +26,10 @@ namespace EFBlogWebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<EFBlogContext>(options =>
+            services.AddDbContext<EFBlogContextSQLServer>(options =>
             {
-                options.UseSqlite("Data Source = blogging.db");
+                //options.UseSqlite("Data Source = blogging.db");
+                options.UseSqlServer(Configuration.GetConnectionString("EFBlogSQLConnection"));
             });
             services.AddRazorPages();
         }

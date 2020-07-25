@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFBlogWebApp", "EFBlogWebAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFBlogDataAccessLibrary", "EFBlogDataAccessLibrary\EFBlogDataAccessLibrary.csproj", "{4EF1E92B-A55B-490B-A58C-1DAAC162E73F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFBlogDataAccessLibrarySQLServer", "EFBlogDataAccessLibrarySQLServer\EFBlogDataAccessLibrarySQLServer.csproj", "{90F70520-785E-4681-87DC-5F16BB2E9317}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4EF1E92B-A55B-490B-A58C-1DAAC162E73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EF1E92B-A55B-490B-A58C-1DAAC162E73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EF1E92B-A55B-490B-A58C-1DAAC162E73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F70520-785E-4681-87DC-5F16BB2E9317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F70520-785E-4681-87DC-5F16BB2E9317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F70520-785E-4681-87DC-5F16BB2E9317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F70520-785E-4681-87DC-5F16BB2E9317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
