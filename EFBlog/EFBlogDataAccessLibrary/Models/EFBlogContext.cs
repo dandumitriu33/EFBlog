@@ -1,4 +1,4 @@
-﻿using EFBlogConsole.Models;
+﻿using EFBlogDataAccessLibrary.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Text;
 
 namespace EFBlogDataAccessLibrary.DataAccess
 {
-    public class EFBlogContext : DbContext
+    public class EFBlogContext : DbContext, IEFBlogContext
     {
         public EFBlogContext(DbContextOptions options) : base(options) { }
 

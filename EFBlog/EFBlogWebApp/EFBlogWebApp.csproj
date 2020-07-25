@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EFBlogDataAccessLibrarySQLServer\EFBlogDataAccessLibrarySQLServer.csproj" />
-    <ProjectReference Include="..\EFBlogDataAccessLibrary\EFBlogDataAccessLibrary.csproj" />
+    <!--<ProjectReference Include="..\EFBlogDataAccessLibrary\EFBlogDataAccessLibrary.csproj" />-->
   </ItemGroup>
 
 </Project>

@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using EFBlogDataAccessLibrary.DataAccess;
-using EFBlogDataAccessLibrary.Models;
+using EFBlogDataAccessLibrarySQLServer.DataAccess;
+using EFBlogDataAccessLibrarySQLServer.Models;
 
 namespace EFBlogWebApp.Pages.Blogs
 {
     public class DetailsModel : PageModel
     {
-        private readonly EFBlogDataAccessLibrary.DataAccess.EFBlogContext _context;
+        private readonly EFBlogDataAccessLibrarySQLServer.DataAccess.EFBlogContextSQLServer _context;
 
-        public DetailsModel(EFBlogDataAccessLibrary.DataAccess.EFBlogContext context)
+        public DetailsModel(EFBlogDataAccessLibrarySQLServer.DataAccess.EFBlogContextSQLServer context)
         {
             _context = context;
         }

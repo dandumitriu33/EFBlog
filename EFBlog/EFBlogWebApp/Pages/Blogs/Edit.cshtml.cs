@@ -6,16 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using EFBlogDataAccessLibrary.DataAccess;
-using EFBlogDataAccessLibrary.Models;
+using EFBlogDataAccessLibrarySQLServer.DataAccess;
+using EFBlogDataAccessLibrarySQLServer.Models;
 
 namespace EFBlogWebApp.Pages.Blogs
 {
     public class EditModel : PageModel
     {
-        private readonly EFBlogDataAccessLibrary.DataAccess.EFBlogContext _context;
+        private readonly EFBlogDataAccessLibrarySQLServer.DataAccess.EFBlogContextSQLServer _context;
 
-        public EditModel(EFBlogDataAccessLibrary.DataAccess.EFBlogContext context)
+        public EditModel(EFBlogDataAccessLibrarySQLServer.DataAccess.EFBlogContextSQLServer context)
         {
             _context = context;
         }
