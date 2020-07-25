@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFBlogConsole", "EFBlogConsole\EFBlogConsole.csproj", "{37C05EC0-0ECF-477F-BFE6-86756A9A92B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFBlogWebApp", "EFBlogWebApp\EFBlogWebApp.csproj", "{D6488E81-8548-435B-BA43-DFA13D2235A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFBlogDataAccessLibrary", "EFBlogDataAccessLibrary\EFBlogDataAccessLibrary.csproj", "{4EF1E92B-A55B-490B-A58C-1DAAC162E73F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{37C05EC0-0ECF-477F-BFE6-86756A9A92B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C05EC0-0ECF-477F-BFE6-86756A9A92B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C05EC0-0ECF-477F-BFE6-86756A9A92B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6488E81-8548-435B-BA43-DFA13D2235A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6488E81-8548-435B-BA43-DFA13D2235A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6488E81-8548-435B-BA43-DFA13D2235A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6488E81-8548-435B-BA43-DFA13D2235A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF1E92B-A55B-490B-A58C-1DAAC162E73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF1E92B-A55B-490B-A58C-1DAAC162E73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF1E92B-A55B-490B-A58C-1DAAC162E73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF1E92B-A55B-490B-A58C-1DAAC162E73F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
